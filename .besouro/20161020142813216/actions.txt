@@ -54,3 +54,11 @@ EditAction 1476963605918 PlanetExplorer.java 1487 4 5 0
 UnitTestCaseAction 1476963606205 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476963606206 TestPlanetExplorer.java FAIL
 EditAction 1476963615570 PlanetExplorer.java 1492 4 5 0
+UnitTestCaseAction 1476963617598 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476963617598 TestPlanetExplorer.java OK
+RefactoringAction 1476963695236 TestPlanetExplorer.java ADD void test_PlanetExplorer FIELD
+RefactoringAction 1476963698250 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerCreatePlanet FIELD
+RefactoringAction 1476963701263 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanet=>void test_PlanetExplorerCreatePlanetInvalid FIELD
+RefactoringAction 1476963703778 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetInvalid=>void test_PlanetExplorerCreatePlanetInvalidXValue FIELD
+RefactoringAction 1476963705294 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetInvalidXValue=>void test_PlanetExplorerCreatePlanetInvalidXValue() METHOD
+EditAction 1476963787084 TestPlanetExplorer.java 665 3 7 2

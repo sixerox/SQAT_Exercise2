@@ -17,4 +17,9 @@ public class TestPlanetExplorer {
 		int value = testExplorer.getY();
 		assertEquals(50, value);
 	}
+	
+	@Test(expected=PlanetExplorerException.class)
+	public void test_PlanetExplorerCreatePlanetInvalidXValue() {
+		PlanetExplorer testExplorer = new PlanetExplorer(-20, 50, "");
+	}
 }
