@@ -1,3 +1,6 @@
 1476963410042 refactoring 3 516 false
 1476963515481 test-addition 2 91 false
 1476963617598 test-first 1 84 true
+1476963883953 refactoring 1A 188 true
+1476963948104 regression 1 0 true
+1476964025577 refactoring 3 57 true
