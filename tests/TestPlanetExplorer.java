@@ -41,4 +41,11 @@ public class TestPlanetExplorer {
 		int value = testExplorer.getExplorerY();
 		assertEquals(0, value);
 	}
+	
+	@Test
+	public void test_PlanetExplorerFacingDirectionAtStart() throws PlanetExplorerException {
+		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
+		char value = testExplorer.getExplorerFacingDirection();
+		assertEquals('n', value);
+	}
 }

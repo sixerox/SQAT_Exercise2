@@ -145,3 +145,9 @@ UnitTestCaseAction 1476964654807 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476964654808 TestPlanetExplorer.java FAIL
 EditAction 1476964661988 PlanetExplorer.java 2077 7 12 0
 EditAction 1476964666732 TestPlanetExplorer.java 1447 6 14 4
+UnitTestCaseAction 1476964668084 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964668085 TestPlanetExplorer.java OK
+RefactoringAction 1476964690390 TestPlanetExplorer.java ADD void test_PlanetExplorer FIELD
+RefactoringAction 1476964697901 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerFacingDirectionAtStart() METHOD
+RefactoringAction 1476964756118 PlanetExplorer.java ADD char getExplorerFacingDirection() METHOD
+EditAction 1476964775631 TestPlanetExplorer.java 1699 7 17 5
