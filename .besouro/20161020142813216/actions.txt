@@ -151,3 +151,5 @@ RefactoringAction 1476964690390 TestPlanetExplorer.java ADD void test_PlanetExpl
 RefactoringAction 1476964697901 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerFacingDirectionAtStart() METHOD
 RefactoringAction 1476964756118 PlanetExplorer.java ADD char getExplorerFacingDirection() METHOD
 EditAction 1476964775631 TestPlanetExplorer.java 1699 7 17 5
+CompilationAction 1476964775734 TestPlanetExplorer.java
+EditAction 1476964777366 PlanetExplorer.java 2174 8 13 0

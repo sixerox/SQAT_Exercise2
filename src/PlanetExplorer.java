@@ -65,4 +65,9 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return this.explorerY;
 	}
+
+	public char getExplorerFacingDirection() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
