@@ -97,8 +97,14 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		String returnString = "(" + this.explorerX + "," + this.explorerY + "," + Character.toUpperCase(this.explorerFacingDirection) + ")";
 		
-		return "(" + this.explorerX + "," + this.explorerY + "," + Character.toUpperCase(this.explorerFacingDirection) + ")";
+		//Obstacle print not done
+		for (int[] obstacle: locatedObstacleList) {
+			
+		}
+		
+		return returnString;
 	}
 
 	private void moveExplorer(char currentCommand) throws PlanetExplorerException {

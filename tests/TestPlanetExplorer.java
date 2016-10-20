@@ -163,7 +163,7 @@ public class TestPlanetExplorer {
 	public void test_ExecuteCommandLocateSingleObstacle() throws PlanetExplorerException {
 		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "(0,1)");
 		String value = testExplorer.executeCommand("f");
-		assertEquals("(0,0,N)(0,1)", value);
+		assertEquals("(0,0,N)(0,1)", value); //not done yet
 	}
 	
 	private boolean checkExplorerStatus(int expectedX, int expectedY, char expectedDir, int actualX, int actualY, char actualDir) {
