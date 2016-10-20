@@ -39,4 +39,9 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return this.x;
 	}
+
+	public int getY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

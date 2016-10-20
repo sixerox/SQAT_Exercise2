@@ -49,3 +49,5 @@ RefactoringAction 1476963536900 TestPlanetExplorer.java RENAME test_PlanetExplor
 RefactoringAction 1476963537916 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetYSize50=>void test_PlanetExplorerCreatePlanetYSize50() METHOD
 RefactoringAction 1476963576071 PlanetExplorer.java ADD int getY() METHOD
 EditAction 1476963591652 TestPlanetExplorer.java 486 2 6 2
+CompilationAction 1476963591758 TestPlanetExplorer.java
+EditAction 1476963605918 PlanetExplorer.java 1487 4 5 0
