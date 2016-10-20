@@ -32,6 +32,6 @@ public class TestPlanetExplorer {
 	public void test_PlanetExplorerXLocationAtStart() throws PlanetExplorerException {
 		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
 		int value = testExplorer.getExplorerX();
-		assertEquals(0, value);
+		assertEquals(10, value);
 	}
 }
