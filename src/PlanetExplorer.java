@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	private int planetYSize;
 	private int explorerX;
 	private int explorerY;
+	private char explorerFacingDirection;
 	
 	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException {
 	/*	x and y represent the size of the grid.
@@ -24,6 +25,7 @@ public class PlanetExplorer {
 		
 		this.explorerX = 0;
 		this.explorerY = 0;
+		this.explorerFacingDirection = 'n';
 	}
 
 	private boolean isPlanetSizeInputInvalid(int x, int y) {
@@ -68,6 +70,6 @@ public class PlanetExplorer {
 
 	public char getExplorerFacingDirection() {
 		// TODO Auto-generated method stub
-		return 'n';
+		return this.explorerFacingDirection;
 	}
 }

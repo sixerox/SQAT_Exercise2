@@ -156,3 +156,8 @@ EditAction 1476964777366 PlanetExplorer.java 2174 8 13 0
 UnitTestCaseAction 1476964777654 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476964777654 TestPlanetExplorer.java FAIL
 EditAction 1476964790538 PlanetExplorer.java 2176 8 13 0
+UnitTestCaseAction 1476964792804 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964792805 TestPlanetExplorer.java OK
+RefactoringAction 1476964802658 PlanetExplorer.java ADD char explorer FIELD
+RefactoringAction 1476964806174 PlanetExplorer.java RENAME explorer=>char explorerFacingDirection FIELD
+EditAction 1476964827247 PlanetExplorer.java 2278 8 14 0
