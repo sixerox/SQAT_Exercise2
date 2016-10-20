@@ -153,3 +153,6 @@ RefactoringAction 1476964756118 PlanetExplorer.java ADD char getExplorerFacingDi
 EditAction 1476964775631 TestPlanetExplorer.java 1699 7 17 5
 CompilationAction 1476964775734 TestPlanetExplorer.java
 EditAction 1476964777366 PlanetExplorer.java 2174 8 13 0
+UnitTestCaseAction 1476964777654 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964777654 TestPlanetExplorer.java FAIL
+EditAction 1476964790538 PlanetExplorer.java 2176 8 13 0
