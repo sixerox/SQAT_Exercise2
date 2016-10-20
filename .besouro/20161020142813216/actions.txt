@@ -34,3 +34,6 @@ RefactoringAction 1476963457596 TestPlanetExplorer.java RENAME test_PlanetExplor
 RefactoringAction 1476963459108 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetX()=>void test_PlanetExplorerCreatePlanetXSize() METHOD
 RefactoringAction 1476963460617 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetXSize()=>void test_PlanetExplorerCreatePlanetXSize100() METHOD
 EditAction 1476963462414 TestPlanetExplorer.java 194 1 1 0
+UnitTestCaseAction 1476963462683 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963462684 TestPlanetExplorer.java FAIL
+EditAction 1476963508611 TestPlanetExplorer.java 322 1 4 1
