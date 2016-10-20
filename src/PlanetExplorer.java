@@ -35,7 +35,10 @@ public class PlanetExplorer {
 	
 	public String executeCommand(String command){
 		
-		this.explorerFacingDirection = 'l';
+		if(command.equals("l")) {
+			this.explorerFacingDirection = 'w';
+		}
+		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
