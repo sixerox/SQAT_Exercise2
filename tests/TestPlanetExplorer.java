@@ -48,4 +48,21 @@ public class TestPlanetExplorer {
 		char value = testExplorer.getExplorerFacingDirection();
 		assertEquals('n', value);
 	}
+	
+	@Test
+	public void test_PlanetExplorerEmptyCommandReturnToStart() throws PlanetExplorerException {
+		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
+		testExplorer.executeCommand("");
+		int x = testExplorer.getExplorerX();
+		int y = testExplorer.getExplorerY();
+		char dir = testExplorer.getExplorerFacingDirection();
+	}
+	
+	private boolean checkExplorerStatus(int expectedX, int expectedY, char expectedDir, int actualX, int actualY, char actualDir) {
+		//return true if explorer at expected position
+		if (expectedDir != actualDir) return false;
+		if (expectedX != actualX) return false;
+		if (expectedY != actualY) return false;
+		return true;
+	}
 }
