@@ -60,4 +60,9 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return this.explorerX;
 	}
+
+	public int getExplorerY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
