@@ -50,4 +50,9 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return this.planetYSize;
 	}
+
+	public int getExplorerX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
