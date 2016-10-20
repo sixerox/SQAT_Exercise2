@@ -5,10 +5,10 @@
 
 public class PlanetExplorer {
 	
-	private int x;
-	private int y;
+	private int planetXSize;
+	private int planetYSize;
 	
-	public PlanetExplorer(int x, int y, String obstacles) {
+	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException {
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -16,9 +16,14 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		if (x < 1) throw new PlanetExplorerException();
-		this.x = x;
-		this.y = y;
+		if (isPlanetSizeInputInvalid(x, y)) throw new PlanetExplorerException();
+		this.planetXSize = x;
+		this.planetYSize = y;
+	}
+
+	private boolean isPlanetSizeInputInvalid(int x, int y) {
+		if (x < 1 || y < 1) return true;
+		return false;
 	}
 	
 	public String executeCommand(String command){
@@ -36,13 +41,13 @@ public class PlanetExplorer {
 		return null;
 	}
 
-	public int getX() {
+	public int getPlanetXSize() {
 		// TODO Auto-generated method stub
-		return this.x;
+		return this.planetXSize;
 	}
 
-	public int getY() {
+	public int getPlanetYSize() {
 		// TODO Auto-generated method stub
-		return this.y;
+		return this.planetYSize;
 	}
 }

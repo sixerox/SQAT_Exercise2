@@ -80,3 +80,41 @@ RefactoringAction 1476963981889 TestPlanetExplorer.java RENAME test_PlanetExplor
 UnitTestCaseAction 1476964025576 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476964025577 TestPlanetExplorer.java OK
 EditAction 1476964108530 TestPlanetExplorer.java 929 4 8 2
+CompilationAction 1476964108613 PlanetExplorer.java
+CompilationAction 1476964122839 PlanetExplorer.java
+UnitTestCaseAction 1476964137067 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964137067 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476964164982 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964164982 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476964171372 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964171373 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476964189661 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964189662 TestPlanetExplorer.java OK
+RefactoringAction 1476964216833 PlanetExplorer.java ADD boolean checkPlanetSizeInputs(int, int) METHOD
+RefactoringAction 1476964277117 PlanetExplorer.java RENAME checkPlanetSizeInputs(int, int)=>boolean isPlanetSizeInputInvalid(int, int) METHOD
+UnitTestCaseAction 1476964287014 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964287014 TestPlanetExplorer.java OK
+RefactoringAction 1476964311386 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1476964315400 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1476964320913 TestPlanetExplorer.java RENAME test_=>void test_Pla FIELD
+RefactoringAction 1476964323931 TestPlanetExplorer.java RENAME test_Pla=>void test_PlanetExplorer FIELD
+RefactoringAction 1476964341447 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerE FIELD
+RefactoringAction 1476964342960 TestPlanetExplorer.java RENAME test_PlanetExplorerE=>void test_PlanetExplorer FIELD
+RefactoringAction 1476964345974 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerX FIELD
+RefactoringAction 1476964348487 TestPlanetExplorer.java RENAME test_PlanetExplorerX=>void test_PlanetExplorerXLocation FIELD
+RefactoringAction 1476964352001 TestPlanetExplorer.java RENAME test_PlanetExplorerXLocation=>void test_PlanetExplorerXLocationAtStart FIELD
+RefactoringAction 1476964354014 TestPlanetExplorer.java RENAME test_PlanetExplorerXLocationAtStart=>void test_PlanetExplorerXLocationAtStart() METHOD
+CompilationAction 1476964419311 TestPlanetExplorer.java
+CompilationAction 1476964442195 TestPlanetExplorer.java
+CompilationAction 1476964442195 TestPlanetExplorer.java
+RefactoringAction 1476964456222 PlanetExplorer.java RENAME x=>int planetx FIELD
+RefactoringAction 1476964457736 PlanetExplorer.java RENAME planetx=>int planetX FIELD
+RefactoringAction 1476964459092 PlanetExplorer.java RENAME planetX=>int x FIELD
+RefactoringAction 1476964459187 PlanetExplorer.java RENAME x=>int planetXSize FIELD
+CompilationAction 1476964459378 TestPlanetExplorer.java
+CompilationAction 1476964459378 TestPlanetExplorer.java
+RefactoringAction 1476964467545 PlanetExplorer.java RENAME y=>int planetYSize FIELD
+CompilationAction 1476964467745 TestPlanetExplorer.java
+CompilationAction 1476964467745 TestPlanetExplorer.java
+RefactoringAction 1476964475294 PlanetExplorer.java ADD int getExplorerX() METHOD
+EditAction 1476964507507 TestPlanetExplorer.java 1218 5 11 3

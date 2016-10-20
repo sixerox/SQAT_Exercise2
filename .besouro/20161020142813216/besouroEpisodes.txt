@@ -325,3 +325,8 @@
 1476964025623 refactoring 3 57 true
 1476964025624 refactoring 2B 57 true
 1476964025625 regression 1 57 true
+1476964137067 refactoring 1A 28 true
+1476964189662 regression 2 24 true
+1476964287014 refactoring 2B 70 true
+1476964287015 refactoring 2B 70 true
+1476964287016 regression 1 70 true

@@ -7,14 +7,14 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_PlanetExplorerCreatePlanetXSize100() throws PlanetExplorerException {
 		PlanetExplorer testExplorer = new PlanetExplorer(100, 50, "");
-		int value = testExplorer.getX();
+		int value = testExplorer.getPlanetXSize();
 		assertEquals(100, value);
 	}
 	
 	@Test
 	public void test_PlanetExplorerCreatePlanetYSize50() throws PlanetExplorerException {
 		PlanetExplorer testExplorer = new PlanetExplorer(100, 50, "");
-		int value = testExplorer.getY();
+		int value = testExplorer.getPlanetYSize();
 		assertEquals(50, value);
 	}
 	
@@ -23,8 +23,15 @@ public class TestPlanetExplorer {
 		PlanetExplorer testExplorer = new PlanetExplorer(-20, 50, "");
 	}
 	
-	@Test
+	@Test(expected=PlanetExplorerException.class)
 	public void test_PlanetExplorerCreatePlanetInvalidYValue() throws PlanetExplorerException {
 		PlanetExplorer testExplorer = new PlanetExplorer(100, -20, "");
+	}
+	
+	@Test
+	public void test_PlanetExplorerXLocationAtStart() throws PlanetExplorerException {
+		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
+		int value = testExplorer.getExplorerX();
+		assertEquals(0, value);
 	}
 }
