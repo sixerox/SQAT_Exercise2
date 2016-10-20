@@ -51,3 +51,6 @@ RefactoringAction 1476963576071 PlanetExplorer.java ADD int getY() METHOD
 EditAction 1476963591652 TestPlanetExplorer.java 486 2 6 2
 CompilationAction 1476963591758 TestPlanetExplorer.java
 EditAction 1476963605918 PlanetExplorer.java 1487 4 5 0
+UnitTestCaseAction 1476963606205 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476963606206 TestPlanetExplorer.java FAIL
+EditAction 1476963615570 PlanetExplorer.java 1492 4 5 0

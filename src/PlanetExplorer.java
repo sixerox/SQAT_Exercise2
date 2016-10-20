@@ -42,6 +42,6 @@ public class PlanetExplorer {
 
 	public int getY() {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.y;
 	}
 }
