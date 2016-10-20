@@ -72,6 +72,14 @@ public class TestPlanetExplorer {
 		assertEquals('e', value);
 	}
 	
+	@Test
+	public void test_PlanetExplorerTurnRightTwiceFromStart() throws PlanetExplorerException {
+		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
+		testExplorer.executeCommand("rr");
+		char value = testExplorer.getExplorerFacingDirection();
+		assertEquals('s', value);
+	}
+	
 	private boolean checkExplorerStatus(int expectedX, int expectedY, char expectedDir, int actualX, int actualY, char actualDir) {
 		//return true if explorer at expected position
 		if (expectedDir != actualDir) return false;
