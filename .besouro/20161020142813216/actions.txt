@@ -131,3 +131,11 @@ RefactoringAction 1476964542355 PlanetExplorer.java RENAME explorer=>int explore
 RefactoringAction 1476964546879 PlanetExplorer.java ADD int explorer FIELD
 RefactoringAction 1476964548392 PlanetExplorer.java RENAME explorer=>int explorerY FIELD
 EditAction 1476964580587 PlanetExplorer.java 1982 6 11 0
+UnitTestCaseAction 1476964582616 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964582616 TestPlanetExplorer.java OK
+RefactoringAction 1476964591545 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1476964594558 TestPlanetExplorer.java RENAME test_=>void test_PlanetExplorer FIELD
+RefactoringAction 1476964596071 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerY FIELD
+RefactoringAction 1476964600583 TestPlanetExplorer.java RENAME test_PlanetExplorerY=>void test_PlanetExplorerYLocationAtStart() METHOD
+RefactoringAction 1476964641439 PlanetExplorer.java ADD int getExplorerY() METHOD
+EditAction 1476964650130 TestPlanetExplorer.java 1448 6 14 4

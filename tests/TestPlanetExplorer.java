@@ -34,4 +34,11 @@ public class TestPlanetExplorer {
 		int value = testExplorer.getExplorerX();
 		assertEquals(0, value);
 	}
+	
+	@Test
+	public void test_PlanetExplorerYLocationAtStart() throws PlanetExplorerException {
+		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
+		int value = testExplorer.getExplorerY();
+		assertEquals(10, value);
+	}
 }
