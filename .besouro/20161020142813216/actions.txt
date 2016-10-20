@@ -62,3 +62,4 @@ RefactoringAction 1476963701263 TestPlanetExplorer.java RENAME test_PlanetExplor
 RefactoringAction 1476963703778 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetInvalid=>void test_PlanetExplorerCreatePlanetInvalidXValue FIELD
 RefactoringAction 1476963705294 TestPlanetExplorer.java RENAME test_PlanetExplorerCreatePlanetInvalidXValue=>void test_PlanetExplorerCreatePlanetInvalidXValue() METHOD
 EditAction 1476963787084 TestPlanetExplorer.java 665 3 7 2
+EditAction 1476963810259 TestPlanetExplorer.java 700 3 8 2

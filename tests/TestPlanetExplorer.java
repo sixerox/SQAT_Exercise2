@@ -21,5 +21,6 @@ public class TestPlanetExplorer {
 	@Test(expected=PlanetExplorerException.class)
 	public void test_PlanetExplorerCreatePlanetInvalidXValue() {
 		PlanetExplorer testExplorer = new PlanetExplorer(-20, 50, "");
+		int value = testExplorer.getX();
 	}
 }
