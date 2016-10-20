@@ -182,3 +182,6 @@ RefactoringAction 1476965043887 TestPlanetExplorer.java RENAME checkExplorerStat
 RefactoringAction 1476965052414 TestPlanetExplorer.java RENAME checkExplorerStatus(int, int, char)=>bool checkExplorerStatus(int, int, char, int) METHOD
 RefactoringAction 1476965059428 TestPlanetExplorer.java RENAME checkExplorerStatus(int, int, char, int)=>bool checkExplorerStatus(int, int, char, int, int, char) METHOD
 EditAction 1476965146795 TestPlanetExplorer.java 2365 9 26 5
+UnitTestCaseAction 1476965201585 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476965201586 TestPlanetExplorer.java OK
+EditAction 1476965239043 TestPlanetExplorer.java 2520 9 27 6

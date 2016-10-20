@@ -56,6 +56,7 @@ public class TestPlanetExplorer {
 		int x = testExplorer.getExplorerX();
 		int y = testExplorer.getExplorerY();
 		char dir = testExplorer.getExplorerFacingDirection();
+		assertEquals(true, checkExplorerStatus(0, 0, 'n', testExplorer.getExplorerX(), testExplorer.getExplorerY(), testExplorer.getExplorerFacingDirection()));
 	}
 	
 	private boolean checkExplorerStatus(int expectedX, int expectedY, char expectedDir, int actualX, int actualY, char actualDir) {
