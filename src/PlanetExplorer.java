@@ -7,6 +7,8 @@ public class PlanetExplorer {
 	
 	private int planetXSize;
 	private int planetYSize;
+	private int explorerX;
+	private int explorerY;
 	
 	public PlanetExplorer(int x, int y, String obstacles) throws PlanetExplorerException {
 	/*	x and y represent the size of the grid.
@@ -19,6 +21,9 @@ public class PlanetExplorer {
 		if (isPlanetSizeInputInvalid(x, y)) throw new PlanetExplorerException();
 		this.planetXSize = x;
 		this.planetYSize = y;
+		
+		this.explorerX = 0;
+		this.explorerY = 0;
 	}
 
 	private boolean isPlanetSizeInputInvalid(int x, int y) {
@@ -53,6 +58,6 @@ public class PlanetExplorer {
 
 	public int getExplorerX() {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.explorerX;
 	}
 }
