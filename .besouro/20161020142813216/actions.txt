@@ -1,0 +1,17 @@
+FileOpenedAction 1476962893412 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1476962963881 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1476963108040 PlanetExplorerException.java ADD void test FIELD
+RefactoringAction 1476963109057 PlanetExplorerException.java RENAME test=>void test_ FIELD
+RefactoringAction 1476963116573 PlanetExplorerException.java RENAME test_=>void test_createPlanet FIELD
+RefactoringAction 1476963120596 PlanetExplorerException.java RENAME test_createPlanet=>void test_createPlanetWithOutObsta FIELD
+RefactoringAction 1476963122618 PlanetExplorerException.java RENAME test_createPlanetWithOutObsta=>void test_createPlanetWithOutObstacles FIELD
+RefactoringAction 1476963146636 PlanetExplorerException.java RENAME test_createPlanetWithOutObstacles=>void test_createPlanetWithOutObstaclesSi FIELD
+RefactoringAction 1476963148150 PlanetExplorerException.java RENAME test_createPlanetWithOutObstaclesSi=>void test_createPlanetWithOutObstaclesSize FIELD
+RefactoringAction 1476963150168 PlanetExplorerException.java RENAME test_createPlanetWithOutObstaclesSize=>void test_createPlanetWithOutObstaclesSize100x FIELD
+RefactoringAction 1476963151683 PlanetExplorerException.java RENAME test_createPlanetWithOutObstaclesSize100x=>void test_createPlanetWithOutObstaclesSize100x100 FIELD
+RefactoringAction 1476963153205 PlanetExplorerException.java RENAME test_createPlanetWithOutObstaclesSize100x100=>void test_createPlanetWithOutObstaclesSize100x100() METHOD
+RefactoringAction 1476963237514 PlanetExplorer.java ADD static int getX() METHOD
+RefactoringAction 1476963255072 PlanetExplorerException.java ADD import org.junit.Test IMPORT
+RefactoringAction 1476963299455 PlanetExplorerException.java ADD import org.junit.Assert IMPORT
+RefactoringAction 1476963339134 PlanetExplorerException.java ADD import org.junit.Assert.* IMPORT
+EditAction 1476963354971 PlanetExplorer.java 1344 3 2 0
