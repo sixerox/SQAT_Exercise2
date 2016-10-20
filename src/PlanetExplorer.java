@@ -4,6 +4,10 @@
 // Finish time:
 
 public class PlanetExplorer {
+	
+	private int x;
+	private int y;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,6 +16,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		this.x = x;
+		this.y = y;
 	}
 	
 	public String executeCommand(String command){
@@ -31,6 +37,6 @@ public class PlanetExplorer {
 
 	public int getX() {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.x;
 	}
 }
