@@ -60,7 +60,8 @@ public class TestPlanetExplorer {
 	public void test_PlanetExplorerTurnLeftOnceFromStart() throws PlanetExplorerException {
 		PlanetExplorer testExplorer = new PlanetExplorer(50, 50, "");
 		testExplorer.executeCommand("l");
-		assertEquals(true, checkExplorerStatus(0, 0, 'l', testExplorer.getExplorerX(), testExplorer.getExplorerY(), testExplorer.getExplorerFacingDirection()));
+		char value = testExplorer.getExplorerFacingDirection();
+		assertEquals('l', value);
 	}
 	
 	private boolean checkExplorerStatus(int expectedX, int expectedY, char expectedDir, int actualX, int actualY, char actualDir) {

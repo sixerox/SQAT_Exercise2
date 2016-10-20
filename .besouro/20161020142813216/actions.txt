@@ -194,3 +194,8 @@ RefactoringAction 1476965272505 TestPlanetExplorer.java RENAME test_Planet=>void
 RefactoringAction 1476965280533 TestPlanetExplorer.java RENAME test_PlanetExplorer=>void test_PlanetExplorerTurnLeftOnceFromStart FIELD
 RefactoringAction 1476965282046 TestPlanetExplorer.java RENAME test_PlanetExplorerTurnLeftOnceFromStart=>void test_PlanetExplorerTurnLeftOnceFromStart() METHOD
 EditAction 1476965329101 TestPlanetExplorer.java 2742 10 27 7
+UnitTestCaseAction 1476965331979 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965331979 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476965390360 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476965390361 TestPlanetExplorer.java FAIL
+EditAction 1476965436375 TestPlanetExplorer.java 2673 10 28 7
